@@ -1,3 +1,14 @@
+README.md (obbligatorio):
+Include una descrizione dettagliata del progetto. Può seguire questa struttura:
+
+Titolo del progetto.
+Obiettivo e motivazione.
+Descrizione del dataset e della fonte.
+Tecnologie utilizzate.
+Principali risultati.
+Come eseguire il progetto (istruzioni).
+Link alla dashboard (se applicabile).
+
 # shopping_trends_analysis
 
 Progetto 1: Analisi di un database e-commerce (SQL + Tableau)
