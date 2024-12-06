@@ -1,61 +1,85 @@
+# Import libraries / Importa le librerie
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-print("Librerie importate con successo!")
+print("Libraries imported successfully! / Librerie importate con successo!")
 
-# Carica il dataset
-file_path = 'data/shopping_trends.csv'
+# Load the dataset / Carica il dataset
+file_path = '/Users/alessiaperrone/Documents/shopping_trends_analysis_project/shopping_trends_analysis/data/shopping_trends.csv'
 df = pd.read_csv(file_path)
 
-# Visualizza le prime righe
+# Display the first rows of the dataset / Visualizza le prime righe del dataset
+print("First rows of the dataset: / Prime righe del dataset:")
 print(df.head())
 
-# Dimensioni del dataset
-print("Dimensioni del dataset:", df.shape)
+# Dataset dimensions / Dimensioni del dataset
+print("Dataset dimensions: / Dimensioni del dataset:", df.shape)
 
-# Tipi di dati
-print("Tipi di dati:\n", df.dtypes)
+# Data types of each column / Tipi di dati delle colonne
+print("Data types: / Tipi di dati:\n", df.dtypes)
 
-# Colonne e statistiche iniziali
-print("Informazioni generali:")
+# General information about the dataset / Informazioni generali sul dataset
+print("General information: / Informazioni generali:")
 print(df.info())
 
-# Riepilogo statistico delle colonne numeriche
-print("Statistiche descrittive:")
+# Statistical summary of numerical columns / Statistiche descrittive delle colonne numeriche
+print("Statistical summary: / Riepilogo statistico:")
 print(df.describe())
 
-print("Dati mancanti per colonna:\n", df.isnull().sum())
-print("Righe duplicate:", df.duplicated().sum())
+# Missing values and duplicates / Valori mancanti e duplicati
+print("Missing values per column: / Valori mancanti per colonna:\n", df.isnull().sum())
+print("Duplicate rows: / Righe duplicate:", df.duplicated().sum())
+
+# Unique values in each column / Valori unici per colonna
 for col in df.columns:
-    print(f"{col}: {df[col].nunique()} valori unici")
+    print(f"{col}: {df[col].nunique()} unique values / valori unici")
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-# Istogrammi
-df.hist(figsize=(12, 8))
+# Histograms of numerical columns / Istogrammi delle colonne numeriche
+df.hist(figsize=(14, 10), color='skyblue', edgecolor='black')
+plt.suptitle("Histograms of numerical columns / Istogrammi delle colonne numeriche", fontsize=16, y=1.02)
+plt.tight_layout()
 plt.show()
 
-# Boxplot per identificare outlier
-sns.boxplot(data=df)
+# Boxplot to identify outliers / Boxplot per identificare outlier
+plt.figure(figsize=(14, 8))
+sns.boxplot(data=df, palette='pastel')
+plt.title("Boxplot to identify outliers / Boxplot per identificare outlier", fontsize=16)
+plt.xticks(rotation=45, fontsize=12)
 plt.show()
 
+# Select categorical columns / Seleziona le colonne categoriche
+categorical_columns = df.select_dtypes(include=['object', 'category']).columns
+print("Categorical columns: / Colonne categoriche:", categorical_columns)
 
-for col in ['colonna_categorica']:
-    print(df[col].value_counts())
-    df[col].value_counts().plot(kind='bar')
-    plt.title(f"Distribuzione di {col}")
+
+# Value counts and bar plots for categorical columns / Conteggio valori e grafici a barre per colonne categoriche
+for column in categorical_columns:
+    print(f"Value counts for {column}: / Conteggio valori per {column}:")
+    print(df[column].value_counts())
+    
+    plt.figure(figsize=(12, 8))
+    sns.countplot(data=df, x=column, hue=column, dodge=False, order=df[column].value_counts().index, legend=False)
+    plt.title(f"Distribution of {column} / Distribuzione di {column}", fontsize=16)
+    plt.xticks(rotation=45, fontsize=12)
+    plt.yticks(fontsize=12)
     plt.show()
 
 
-# Matrice di correlazione
-correlation = df.corr()
-sns.heatmap(correlation, annot=True, cmap="coolwarm")
-plt.title("Matrice di correlazione")
+# Select numerical columns for correlation / Seleziona colonne numeriche per la correlazione
+numeric_df = df.select_dtypes(include=[np.number])
+
+# Correlation matrix / Matrice di correlazione
+correlation = numeric_df.corr()
+plt.figure(figsize=(12, 8))
+sns.heatmap(correlation, annot=True, cmap="coolwarm", fmt=".2f", linewidths=0.5)
+plt.title("Correlation Matrix / Matrice di correlazione", fontsize=16)
 plt.show()
 
-sns.pairplot(df, diag_kind='kde')
+# Pairplot of numerical columns / Pairplot delle colonne numeriche
+sns.pairplot(numeric_df, diag_kind='kde', corner=True, plot_kws={'alpha': 0.5}, height=2.5)
+plt.suptitle("Pairplot of Numerical Columns / Pairplot delle colonne numeriche", y=1.02, fontsize=16)
 plt.show()
+
 
