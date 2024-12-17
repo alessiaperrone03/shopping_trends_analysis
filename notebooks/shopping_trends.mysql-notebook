@@ -1,0 +1,1042 @@
+{
+    "type": "MySQLNotebook",
+    "version": "1.0",
+    "caption": "DB Notebook",
+    "content": "\\about\nUSE shopping_trends\nDESCRIBE shopping_trends\nSELECT * FROM shopping_trends LIMIT 10;\n\n\n\n",
+    "options": {
+        "tabSize": 4,
+        "indentSize": 4,
+        "insertSpaces": true,
+        "defaultEOL": "LF",
+        "trimAutoWhitespace": true
+    },
+    "viewState": {
+        "cursorState": [
+            {
+                "inSelectionMode": false,
+                "selectionStart": {
+                    "lineNumber": 8,
+                    "column": 1
+                },
+                "position": {
+                    "lineNumber": 8,
+                    "column": 1
+                }
+            }
+        ],
+        "viewState": {
+            "scrollLeft": 0,
+            "firstPosition": {
+                "lineNumber": 2,
+                "column": 1
+            },
+            "firstPositionDeltaTop": 74
+        },
+        "contributionsState": {
+            "editor.contrib.folding": {},
+            "editor.contrib.wordHighlighter": false
+        }
+    },
+    "contexts": [
+        {
+            "state": {
+                "start": 1,
+                "end": 1,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 2,
+                            "content": "Welcome to the MySQL Shell - DB Notebook.\n\nPress Cmd+Enter to execute the code block.\n\nExecute \\sql to switch to SQL, \\js to JavaScript and \\ts to TypeScript mode.\nExecute \\help or \\? for help;",
+                            "language": "ansi"
+                        }
+                    ]
+                },
+                "currentHeight": 104,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 6
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 2,
+                "end": 2,
+                "language": "mysql",
+                "result": {
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 4,
+                            "index": 0,
+                            "resultId": "25685d91-52e0-4e75-afdd-986726e185fe",
+                            "content": "OK, 0 records retrieved in 0.603ms"
+                        }
+                    ]
+                },
+                "currentHeight": 28,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 19
+                        },
+                        "contentStart": 0,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": []
+        },
+        {
+            "state": {
+                "start": 3,
+                "end": 3,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "6b11d8b9-4a57-40f3-a0e4-88861a3fc046"
+                    ]
+                },
+                "currentHeight": 352,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 24
+                        },
+                        "contentStart": 1,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "51109ed5-2abe-4c26-dd9a-2e3b39f9e69f",
+                    "resultId": "6b11d8b9-4a57-40f3-a0e4-88861a3fc046",
+                    "rows": [
+                        {
+                            "0": "customer_id",
+                            "1": "int",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "age",
+                            "1": "int",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "gender",
+                            "1": "varchar(10)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "item_purchased",
+                            "1": "varchar(255)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "category",
+                            "1": "varchar(255)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "purchase_amount_usd",
+                            "1": "int",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "location",
+                            "1": "varchar(255)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "size",
+                            "1": "varchar(50)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "color",
+                            "1": "varchar(50)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "season",
+                            "1": "varchar(50)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "review_rating",
+                            "1": "decimal(3,2)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "subscription_status",
+                            "1": "varchar(50)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "payment_method",
+                            "1": "varchar(50)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "shipping_type",
+                            "1": "varchar(50)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "discount_applied",
+                            "1": "varchar(50)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "promo_code_used",
+                            "1": "varchar(50)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "previous_purchases",
+                            "1": "int",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "preferred_payment_method",
+                            "1": "varchar(50)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        },
+                        {
+                            "0": "frequency_of_purchases",
+                            "1": "varchar(50)",
+                            "2": "YES",
+                            "3": "",
+                            "4": null,
+                            "5": ""
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "Field",
+                            "field": "0",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Type",
+                            "field": "1",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Null",
+                            "field": "2",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Key",
+                            "field": "3",
+                            "dataType": {
+                                "type": 43,
+                                "needsQuotes": true
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Default",
+                            "field": "4",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "Extra",
+                            "field": "5",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 19 records retrieved in 2.045ms"
+                    },
+                    "totalRowCount": 19,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "DESCRIBE shopping_trends",
+                    "updatable": false
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 4,
+                "end": 7,
+                "language": "mysql",
+                "result": {
+                    "type": "resultIds",
+                    "list": [
+                        "0a7d8643-5a6b-4bca-db48-e252846a0c43"
+                    ]
+                },
+                "currentHeight": 284,
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 39
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    },
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 39,
+                            "length": 3
+                        },
+                        "contentStart": 38,
+                        "state": 3
+                    }
+                ]
+            },
+            "data": [
+                {
+                    "tabId": "51109ed5-2abe-4c26-dd9a-2e3b39f9e69f",
+                    "resultId": "0a7d8643-5a6b-4bca-db48-e252846a0c43",
+                    "rows": [
+                        {
+                            "0": 1,
+                            "1": 55,
+                            "2": "Male",
+                            "3": "Blouse",
+                            "4": "Clothing",
+                            "5": 53,
+                            "6": "Kentucky",
+                            "7": "L",
+                            "8": "Gray",
+                            "9": "Winter",
+                            "10": "3.10",
+                            "11": "Yes",
+                            "12": "Credit Card",
+                            "13": "Express",
+                            "14": "Yes",
+                            "15": "Yes",
+                            "16": 14,
+                            "17": "Venmo",
+                            "18": "Fortnightly\r"
+                        },
+                        {
+                            "0": 2,
+                            "1": 19,
+                            "2": "Male",
+                            "3": "Sweater",
+                            "4": "Clothing",
+                            "5": 64,
+                            "6": "Maine",
+                            "7": "L",
+                            "8": "Maroon",
+                            "9": "Winter",
+                            "10": "3.10",
+                            "11": "Yes",
+                            "12": "Bank Transfer",
+                            "13": "Express",
+                            "14": "Yes",
+                            "15": "Yes",
+                            "16": 2,
+                            "17": "Cash",
+                            "18": "Fortnightly\r"
+                        },
+                        {
+                            "0": 3,
+                            "1": 50,
+                            "2": "Male",
+                            "3": "Jeans",
+                            "4": "Clothing",
+                            "5": 73,
+                            "6": "Massachusetts",
+                            "7": "S",
+                            "8": "Maroon",
+                            "9": "Spring",
+                            "10": "3.10",
+                            "11": "Yes",
+                            "12": "Cash",
+                            "13": "Free Shipping",
+                            "14": "Yes",
+                            "15": "Yes",
+                            "16": 23,
+                            "17": "Credit Card",
+                            "18": "Weekly\r"
+                        },
+                        {
+                            "0": 4,
+                            "1": 21,
+                            "2": "Male",
+                            "3": "Sandals",
+                            "4": "Footwear",
+                            "5": 90,
+                            "6": "Rhode Island",
+                            "7": "M",
+                            "8": "Maroon",
+                            "9": "Spring",
+                            "10": "3.50",
+                            "11": "Yes",
+                            "12": "PayPal",
+                            "13": "Next Day Air",
+                            "14": "Yes",
+                            "15": "Yes",
+                            "16": 49,
+                            "17": "PayPal",
+                            "18": "Weekly\r"
+                        },
+                        {
+                            "0": 5,
+                            "1": 45,
+                            "2": "Male",
+                            "3": "Blouse",
+                            "4": "Clothing",
+                            "5": 49,
+                            "6": "Oregon",
+                            "7": "M",
+                            "8": "Turquoise",
+                            "9": "Spring",
+                            "10": "2.70",
+                            "11": "Yes",
+                            "12": "Cash",
+                            "13": "Free Shipping",
+                            "14": "Yes",
+                            "15": "Yes",
+                            "16": 31,
+                            "17": "PayPal",
+                            "18": "Annually\r"
+                        },
+                        {
+                            "0": 6,
+                            "1": 46,
+                            "2": "Male",
+                            "3": "Sneakers",
+                            "4": "Footwear",
+                            "5": 20,
+                            "6": "Wyoming",
+                            "7": "M",
+                            "8": "White",
+                            "9": "Summer",
+                            "10": "2.90",
+                            "11": "Yes",
+                            "12": "Venmo",
+                            "13": "Standard",
+                            "14": "Yes",
+                            "15": "Yes",
+                            "16": 14,
+                            "17": "Venmo",
+                            "18": "Weekly\r"
+                        },
+                        {
+                            "0": 7,
+                            "1": 63,
+                            "2": "Male",
+                            "3": "Shirt",
+                            "4": "Clothing",
+                            "5": 85,
+                            "6": "Montana",
+                            "7": "M",
+                            "8": "Gray",
+                            "9": "Fall",
+                            "10": "3.20",
+                            "11": "Yes",
+                            "12": "Debit Card",
+                            "13": "Free Shipping",
+                            "14": "Yes",
+                            "15": "Yes",
+                            "16": 49,
+                            "17": "Cash",
+                            "18": "Quarterly\r"
+                        },
+                        {
+                            "0": 8,
+                            "1": 27,
+                            "2": "Male",
+                            "3": "Shorts",
+                            "4": "Clothing",
+                            "5": 34,
+                            "6": "Louisiana",
+                            "7": "L",
+                            "8": "Charcoal",
+                            "9": "Winter",
+                            "10": "3.20",
+                            "11": "Yes",
+                            "12": "Debit Card",
+                            "13": "Free Shipping",
+                            "14": "Yes",
+                            "15": "Yes",
+                            "16": 19,
+                            "17": "Credit Card",
+                            "18": "Weekly\r"
+                        },
+                        {
+                            "0": 9,
+                            "1": 26,
+                            "2": "Male",
+                            "3": "Coat",
+                            "4": "Outerwear",
+                            "5": 97,
+                            "6": "West Virginia",
+                            "7": "L",
+                            "8": "Silver",
+                            "9": "Summer",
+                            "10": "2.60",
+                            "11": "Yes",
+                            "12": "Venmo",
+                            "13": "Express",
+                            "14": "Yes",
+                            "15": "Yes",
+                            "16": 8,
+                            "17": "Venmo",
+                            "18": "Annually\r"
+                        },
+                        {
+                            "0": 10,
+                            "1": 57,
+                            "2": "Male",
+                            "3": "Handbag",
+                            "4": "Accessories",
+                            "5": 31,
+                            "6": "Missouri",
+                            "7": "M",
+                            "8": "Pink",
+                            "9": "Spring",
+                            "10": "4.80",
+                            "11": "Yes",
+                            "12": "PayPal",
+                            "13": "2-Day Shipping",
+                            "14": "Yes",
+                            "15": "Yes",
+                            "16": 4,
+                            "17": "Cash",
+                            "18": "Quarterly\r"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "customer_id",
+                            "field": "0",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "age",
+                            "field": "1",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "gender",
+                            "field": "2",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "item_purchased",
+                            "field": "3",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "category",
+                            "field": "4",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "purchase_amount_usd",
+                            "field": "5",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "location",
+                            "field": "6",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "size",
+                            "field": "7",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "color",
+                            "field": "8",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "season",
+                            "field": "9",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "review_rating",
+                            "field": "10",
+                            "dataType": {
+                                "type": 10,
+                                "flags": [
+                                    "UNSIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 65,
+                                "numericScale": 30,
+                                "parameterFormatType": "TwoOrOneOrZero",
+                                "synonyms": [
+                                    "FIXED",
+                                    "NUMERIC",
+                                    "DEC"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "subscription_status",
+                            "field": "11",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "payment_method",
+                            "field": "12",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "shipping_type",
+                            "field": "13",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "discount_applied",
+                            "field": "14",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "promo_code_used",
+                            "field": "15",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "previous_purchases",
+                            "field": "16",
+                            "dataType": {
+                                "type": 4,
+                                "flags": [
+                                    "SIGNED",
+                                    "ZEROFILL"
+                                ],
+                                "numericPrecision": 10,
+                                "parameterFormatType": "OneOrZero",
+                                "synonyms": [
+                                    "INTEGER",
+                                    "INT4"
+                                ]
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "preferred_payment_method",
+                            "field": "17",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        },
+                        {
+                            "title": "frequency_of_purchases",
+                            "field": "18",
+                            "dataType": {
+                                "type": 17,
+                                "characterMaximumLength": 65535,
+                                "flags": [
+                                    "BINARY",
+                                    "ASCII",
+                                    "UNICODE"
+                                ],
+                                "needsQuotes": true,
+                                "parameterFormatType": "OneOrZero"
+                            },
+                            "inPK": false,
+                            "nullable": false,
+                            "autoIncrement": false
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": "OK, 10 records retrieved in 0.578ms"
+                    },
+                    "totalRowCount": 10,
+                    "hasMoreRows": false,
+                    "currentPage": 0,
+                    "index": 0,
+                    "sql": "SELECT * FROM shopping_trends LIMIT 10",
+                    "updatable": false,
+                    "fullTableName": "shopping_trends"
+                }
+            ]
+        },
+        {
+            "state": {
+                "start": 8,
+                "end": 8,
+                "language": "mysql",
+                "currentSet": 1,
+                "statements": [
+                    {
+                        "delimiter": ";",
+                        "span": {
+                            "start": 0,
+                            "length": 0
+                        },
+                        "contentStart": 0,
+                        "state": 0
+                    }
+                ]
+            },
+            "data": []
+        }
+    ]
+}
