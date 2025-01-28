@@ -1,31 +1,18 @@
 # **Progetto 1: Analisi di un Database E-commerce (SQL + Tableau)**
 
 ## **Descrizione del Progetto**
-Questo progetto mira a esplorare un database di e-commerce per ottenere insight strategici sui comportamenti dei clienti, le vendite e le performance dei prodotti. Utilizzerò SQL per l'analisi dei dati e Tableau per creare una dashboard interattiva che mostrerà i risultati in modo chiaro e accessibile.
+Questo progetto mira a esplorare un database di e-commerce per ottenere insight strategici sui comportamenti dei clienti, le vendite e le performance dei prodotti. Utilizzerò SQL e Python per l'analisi dei dati e Tableau per creare una dashboard interattiva che mostrerà i risultati in modo chiaro e accessibile.
 
 ## **Obiettivi Principali**
 1. **Comprendere i trend delle vendite:**
-   - Analizzare il fatturato mensile/annuale.
+   - Analizzare il fatturato stagionale.
    - Identificare la presenza di stagionalità (es. picchi durante i saldi o festività).
 
-2. **Identificare i clienti più preziosi:**
-   - Determinare i top 10 clienti per fatturato totale.
-   - Calcolare il Customer Lifetime Value (CLV) medio.
+2. **Valutare la performance dei prodotti:**
+   - Scoprire le categorie di prodotti più venduti e quelli con il maggior fatturato.
 
-3. **Valutare la performance dei prodotti:**
-   - Scoprire i prodotti più venduti e quelli con il maggior fatturato.
-
-4. **Analizzare il comportamento geografico:**
+3. **Analizzare il comportamento geografico:**
    - Identificare le regioni/città più redditizie.
-   - Calcolare il valore medio dell'ordine per area geografica.
-
-5. **Studiare le categorie di prodotto:**
-   - Analizzare quali categorie generano più vendite.
-   - Valutare i margini di profitto per categoria.
-
-6. **Misurare la fidelizzazione:**
-   - Determinare il tasso di ritorno dei clienti.
-   - Confrontare gli ordini unici con quelli ricorrenti.
 
 ## **Dataset**
 Il dataset utilizzato contiene diverse tabelle, tra cui:
@@ -34,34 +21,12 @@ Il dataset utilizzato contiene diverse tabelle, tra cui:
 - **products**: Dettagli sui prodotti (nome, categoria, prezzo).
 - **order_details**: Quantità e prezzi per ogni prodotto in un ordine.
 
-### **Obiettivo iniziale**
-- Analizzare la struttura del database e mappare le relazioni tra le tabelle (schema ER).
-
-## **Analisi Avanzate**
-1. **Segmentazione dei Clienti**
-   - Dividere i clienti in segmenti basati su:
-     - Fatturato totale.
-     - Frequenza degli acquisti.
-     - Metodo di pagamento preferito.
-   - Utilizzare algoritmi di clustering come k-means per identificare profili di spesa distinti.
-
-2. **Cohort Analysis**
-   - Analizzare i comportamenti di acquisto in base al primo acquisto o a stagioni specifiche.
-
-3. **Cross-selling**
-   - Identificare combinazioni di articoli acquistati insieme (es. tramite analisi di market basket).
-
-4. **Elasticità dei Prezzi**
-   - Studiare l'effetto di sconti e promozioni sul volume delle vendite.
-
 ## **Visualizzazioni in Tableau**
 ### **Dashboard Principali**
 1. **Panoramica Generale:**
-   - KPI: Fatturato totale, ordini totali, numero di clienti.
-   - Grafici a linea per i trend temporali.
+   - KPI: Fatturato totale, numero di clienti.
 
 2. **Clienti e Comportamenti:**
-   - Suddivisione clienti ricorrenti vs nuovi.
    - Visualizzazione dei segmenti di clientela.
 
 3. **Analisi Geografica:**
@@ -69,19 +34,6 @@ Il dataset utilizzato contiene diverse tabelle, tra cui:
 
 4. **Performance dei Prodotti:**
    - Prodotti più venduti e categorie più redditizie.
-
-5. **Previsioni:**
-   - Grafici predittivi basati sull'analisi delle serie temporali.
-
-## **Modelli Predittivi e Analisi Statistica**
-1. **Previsioni di Vendita:**
-   - Utilizzo di modelli di analisi delle serie temporali (ARIMA o Prophet).
-   
-2. **Elasticità dei Prezzi:**
-   - Correlazione tra sconti e volume delle vendite.
-   
-3. **Lifetime Value Prediction:**
-   - Stima del valore futuro dei clienti per migliorare le strategie di marketing.
 
 ## **Possibili Estensioni del Progetto**
 - Integrare un'analisi di sentiment delle recensioni per valutare la percezione dei clienti sui prodotti.
@@ -91,7 +43,6 @@ Il dataset utilizzato contiene diverse tabelle, tra cui:
 ## **Strumenti Utilizzati**
 - **SQL**: Per estrarre e analizzare i dati.
 - **Python**:
-  - Analisi statistica avanzata (pandas, numpy, scikit-learn).
+  - Analisi statistica (pandas, numpy).
   - Previsioni e clustering.
 - **Tableau**: Per creare dashboard interattive.
-- **Jupyter Notebook**: Per documentare il flusso di lavoro.
