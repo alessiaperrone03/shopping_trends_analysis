@@ -48,7 +48,7 @@
                     "text": [
                         {
                             "type": 2,
-                            "content": "Welcome to the MySQL Shell - DB Notebook.\n\nPress Cmd+Enter to execute the code block.\n\nExecute \\sql to switch to SQL, \\js to JavaScript and \\ts to TypeScript mode.\nExecute \\help or \\? for help;",
+                            "content": "Welcome to the MySQL Shell - DB Notebook.\n\nPress Cmd+Enter to execute the code block.\n\nExecute \\sql to switch to SQL, \\js to JavaScript and \\ts to TypeScript mode.\nExecute \\help or \\? for help;Welcome to the MySQL Shell - DB Notebook.\n\nPress Cmd+Enter to execute the code block.\n\nExecute \\sql to switch to SQL, \\js to JavaScript and \\ts to TypeScript mode.\nExecute \\help or \\? for help;",
                             "language": "ansi"
                         }
                     ]
@@ -80,8 +80,8 @@
                         {
                             "type": 4,
                             "index": 0,
-                            "resultId": "ba48bb0a-b857-4217-f52e-4df06013f3cb",
-                            "content": "OK, 0 records retrieved in 0.543ms"
+                            "resultId": "43277139-758a-4b3b-9463-931d3bd08e30",
+                            "content": "OK, 0 records retrieved in 0.38ms"
                         }
                     ]
                 },
@@ -109,7 +109,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "9a397a4d-463e-46e7-fae9-f2a8181e205b"
+                        "bd29d8cc-0e97-4e91-c55d-1d0583abf648"
                     ]
                 },
                 "currentHeight": 352,
@@ -128,8 +128,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "9a397a4d-463e-46e7-fae9-f2a8181e205b",
+                    "tabId": "1",
+                    "resultId": "bd29d8cc-0e97-4e91-c55d-1d0583abf648",
                     "rows": [
                         {
                             "0": "customer_id",
@@ -388,7 +388,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 19 records retrieved in 4.182ms"
+                        "text": "OK, 19 records retrieved in 2.033ms"
                     },
                     "totalRowCount": 19,
                     "hasMoreRows": false,
@@ -407,7 +407,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "920f866b-5bf3-47c2-a8d5-265b552d0977"
+                        "7c216a40-233f-4e2f-bf9f-874d7eb9ec9a"
                     ]
                 },
                 "currentHeight": 284,
@@ -435,8 +435,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "920f866b-5bf3-47c2-a8d5-265b552d0977",
+                    "tabId": "1",
+                    "resultId": "7c216a40-233f-4e2f-bf9f-874d7eb9ec9a",
                     "rows": [
                         {
                             "0": 1,
@@ -1006,7 +1006,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 10 records retrieved in 0.994ms"
+                        "text": "OK, 10 records retrieved in 0.535ms"
                     },
                     "totalRowCount": 10,
                     "hasMoreRows": false,
@@ -1026,7 +1026,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "052d34ef-f537-4a38-864a-2d7641f8a262"
+                        "32c24142-bb51-433f-8a42-647f5664a780"
                     ]
                 },
                 "currentHeight": 36,
@@ -1054,8 +1054,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "052d34ef-f537-4a38-864a-2d7641f8a262",
+                    "tabId": "1",
+                    "resultId": "32c24142-bb51-433f-8a42-647f5664a780",
                     "rows": [
                         {
                             "0": 3900
@@ -1084,13 +1084,13 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 1 record retrieved in 1.957ms"
+                        "text": "OK, 1 record retrieved in 1.823ms"
                     },
                     "totalRowCount": 1,
                     "hasMoreRows": false,
                     "currentPage": 0,
                     "index": 0,
-                    "sql": "\nSELECT COUNT(*) AS total_rows FROM shopping_trends",
+                    "sql": "SELECT COUNT(*) AS total_rows FROM shopping_trends",
                     "updatable": false,
                     "fullTableName": ""
                 }
@@ -1104,7 +1104,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "0e0ea9d7-944d-4ab7-8a5e-270ccd35713f"
+                        "75d501fc-10e0-4ab1-a1d4-eadcebf10474"
                     ]
                 },
                 "currentHeight": 36,
@@ -1132,8 +1132,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "0e0ea9d7-944d-4ab7-8a5e-270ccd35713f",
+                    "tabId": "1",
+                    "resultId": "75d501fc-10e0-4ab1-a1d4-eadcebf10474",
                     "rows": [
                         {
                             "0": 0
@@ -1162,7 +1162,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 1 record retrieved in 3.895ms"
+                        "text": "OK, 1 record retrieved in 5.707ms"
                     },
                     "totalRowCount": 1,
                     "hasMoreRows": false,
@@ -1182,7 +1182,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "404f7ad7-8a3b-4267-c267-e6195fc73758"
+                        "aaf1b485-37e9-40cd-bf5c-ce79cc534177"
                     ]
                 },
                 "currentHeight": 36,
@@ -1210,8 +1210,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "404f7ad7-8a3b-4267-c267-e6195fc73758",
+                    "tabId": "1",
+                    "resultId": "aaf1b485-37e9-40cd-bf5c-ce79cc534177",
                     "rows": [
                         {
                             "0": "customer_id",
@@ -1329,7 +1329,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 19 records retrieved in 1.272ms"
+                        "text": "OK, 19 records retrieved in 2.068ms"
                     },
                     "totalRowCount": 19,
                     "hasMoreRows": false,
@@ -1349,7 +1349,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "3b6e3cf4-5c70-4f97-dae2-4b8f5459d670"
+                        "36dca7fd-93c2-47ae-f59a-69fb796016ab"
                     ]
                 },
                 "currentHeight": 36,
@@ -1377,8 +1377,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "3b6e3cf4-5c70-4f97-dae2-4b8f5459d670",
+                    "tabId": "1",
+                    "resultId": "36dca7fd-93c2-47ae-f59a-69fb796016ab",
                     "rows": [
                         {
                             "0": "59.7644"
@@ -1409,7 +1409,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 1 record retrieved in 4.188ms"
+                        "text": "OK, 1 record retrieved in 4.454ms"
                     },
                     "totalRowCount": 1,
                     "hasMoreRows": false,
@@ -1429,7 +1429,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "a6ad842c-df0d-4fe7-ad3b-ec051e9867c9"
+                        "f7fe9543-9176-41fb-bd9e-072233c39177"
                     ]
                 },
                 "currentHeight": 36,
@@ -1457,8 +1457,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "a6ad842c-df0d-4fe7-ad3b-ec051e9867c9",
+                    "tabId": "1",
+                    "resultId": "f7fe9543-9176-41fb-bd9e-072233c39177",
                     "rows": [
                         {
                             "0": "2.50",
@@ -1610,7 +1610,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 26 records retrieved in 3.424ms"
+                        "text": "OK, 26 records retrieved in 6ms"
                     },
                     "totalRowCount": 26,
                     "hasMoreRows": false,
@@ -1630,8 +1630,8 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "b2dc326f-362b-4003-82c5-250e84f94af6",
-                        "8667d5e0-ea00-4916-e7bc-c2b3015464fd"
+                        "ea5640f3-eb30-47f3-b0a8-b266586d37db",
+                        "c5bbc06a-0e3c-49af-cb9a-461e7cad2dac"
                     ]
                 },
                 "currentHeight": 36,
@@ -1668,8 +1668,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "b2dc326f-362b-4003-82c5-250e84f94af6",
+                    "tabId": "1",
+                    "resultId": "ea5640f3-eb30-47f3-b0a8-b266586d37db",
                     "rows": [
                         {
                             "0": "Male"
@@ -1699,7 +1699,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 2 records retrieved in 5.753ms"
+                        "text": "OK, 2 records retrieved in 7.586ms"
                     },
                     "totalRowCount": 2,
                     "hasMoreRows": false,
@@ -1710,8 +1710,8 @@
                     "fullTableName": ""
                 },
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "8667d5e0-ea00-4916-e7bc-c2b3015464fd",
+                    "tabId": "1",
+                    "resultId": "c5bbc06a-0e3c-49af-cb9a-461e7cad2dac",
                     "rows": [
                         {
                             "0": "Clothing"
@@ -1747,7 +1747,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 4 records retrieved in 3.819ms"
+                        "text": "OK, 4 records retrieved in 6.443ms"
                     },
                     "totalRowCount": 4,
                     "hasMoreRows": false,
@@ -1770,8 +1770,8 @@
                         {
                             "type": 4,
                             "index": 0,
-                            "resultId": "47302b82-ba8f-42cb-ef3d-990f63cdd6f4",
-                            "content": "OK, 0 records retrieved in 29.085ms"
+                            "resultId": "6d8a84f0-439a-48b1-84de-e2a658a488d5",
+                            "content": "OK, 0 records retrieved in 30.21ms"
                         }
                     ]
                 },
@@ -1808,7 +1808,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "74c2d4b4-379a-43a8-dd55-d9746be36f67"
+                        "e37b17c7-b51a-4f8a-cfc3-3102444590b5"
                     ]
                 },
                 "currentHeight": 36,
@@ -1836,8 +1836,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "74c2d4b4-379a-43a8-dd55-d9746be36f67",
+                    "tabId": "1",
+                    "resultId": "e37b17c7-b51a-4f8a-cfc3-3102444590b5",
                     "rows": [
                         {
                             "0": "Clothing",
@@ -1897,7 +1897,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 4 records retrieved in 6.802ms"
+                        "text": "OK, 4 records retrieved in 9.754ms"
                     },
                     "totalRowCount": 4,
                     "hasMoreRows": false,
@@ -1917,7 +1917,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "3dcb5d72-e30e-419f-9f16-a885d3e69d76"
+                        "88613538-2aea-4282-c63c-40ae4e8051fc"
                     ]
                 },
                 "currentHeight": 368.7578125,
@@ -1945,8 +1945,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "3dcb5d72-e30e-419f-9f16-a885d3e69d76",
+                    "tabId": "1",
+                    "resultId": "88613538-2aea-4282-c63c-40ae4e8051fc",
                     "rows": [
                         {
                             "0": 2808,
@@ -6001,11 +6001,11 @@
                     "fullTableName": ""
                 },
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "3dcb5d72-e30e-419f-9f16-a885d3e69d76",
+                    "tabId": "1",
+                    "resultId": "88613538-2aea-4282-c63c-40ae4e8051fc",
                     "rows": [],
                     "executionInfo": {
-                        "text": "OK, 1000 records retrieved in 11.475ms"
+                        "text": "OK, 1000 records retrieved in 11.676ms"
                     },
                     "totalRowCount": 1000,
                     "hasMoreRows": true,
@@ -6025,7 +6025,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "e45e972f-cdf7-4b60-e145-74ec78eac21a"
+                        "4972504c-f10d-487c-a75c-35c100433f3d"
                     ]
                 },
                 "currentHeight": 36,
@@ -6053,8 +6053,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "e45e972f-cdf7-4b60-e145-74ec78eac21a",
+                    "tabId": "1",
+                    "resultId": "4972504c-f10d-487c-a75c-35c100433f3d",
                     "rows": [
                         {
                             "0": "Winter",
@@ -6114,7 +6114,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 4 records retrieved in 6.311ms"
+                        "text": "OK, 4 records retrieved in 6.175ms"
                     },
                     "totalRowCount": 4,
                     "hasMoreRows": false,
@@ -6134,7 +6134,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "ada54d20-a6c7-4466-a5c7-c8951618c419"
+                        "d9e0f92b-acfe-4134-e24d-752eb03edc4c"
                     ]
                 },
                 "currentHeight": 36,
@@ -6162,8 +6162,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "ada54d20-a6c7-4466-a5c7-c8951618c419",
+                    "tabId": "1",
+                    "resultId": "d9e0f92b-acfe-4134-e24d-752eb03edc4c",
                     "rows": [
                         {
                             "0": "2.50",
@@ -6317,7 +6317,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 26 records retrieved in 5.985ms"
+                        "text": "OK, 26 records retrieved in 7.791ms"
                     },
                     "totalRowCount": 26,
                     "hasMoreRows": false,
@@ -6337,7 +6337,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "9ca90425-dbba-4719-eea3-029d687f049a"
+                        "1f8ad8db-316b-4852-a982-71252eefe0b9"
                     ]
                 },
                 "currentHeight": 36,
@@ -6365,8 +6365,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "9ca90425-dbba-4719-eea3-029d687f049a",
+                    "tabId": "1",
+                    "resultId": "1f8ad8db-316b-4852-a982-71252eefe0b9",
                     "rows": [
                         {
                             "0": "Yes",
@@ -6418,7 +6418,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 2 records retrieved in 4.64ms"
+                        "text": "OK, 2 records retrieved in 6.631ms"
                     },
                     "totalRowCount": 2,
                     "hasMoreRows": false,
@@ -6438,7 +6438,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "9e9368af-c662-4711-f1a5-933bec896aa3"
+                        "9d75091e-acc3-4cf9-9275-353529232b45"
                     ]
                 },
                 "currentHeight": 36,
@@ -6466,8 +6466,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "9e9368af-c662-4711-f1a5-933bec896aa3",
+                    "tabId": "1",
+                    "resultId": "9d75091e-acc3-4cf9-9275-353529232b45",
                     "rows": [
                         {
                             "0": 1,
@@ -27834,11 +27834,11 @@
                     "fullTableName": "shopping_trends"
                 },
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "9e9368af-c662-4711-f1a5-933bec896aa3",
+                    "tabId": "1",
+                    "resultId": "9d75091e-acc3-4cf9-9275-353529232b45",
                     "rows": [],
                     "executionInfo": {
-                        "text": "OK, 1000 records retrieved in 1.063ms"
+                        "text": "OK, 1000 records retrieved in 1.351ms"
                     },
                     "totalRowCount": 1000,
                     "hasMoreRows": true,
@@ -27858,7 +27858,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "0f6bb03e-a3b2-4762-dde3-214d6e279143"
+                        "6b5344f9-c301-483c-f99e-967ff349d4c5"
                     ]
                 },
                 "currentHeight": 36,
@@ -27886,8 +27886,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "0f6bb03e-a3b2-4762-dde3-214d6e279143",
+                    "tabId": "1",
+                    "resultId": "6b5344f9-c301-483c-f99e-967ff349d4c5",
                     "rows": [
                         {
                             "0": "233081"
@@ -27918,7 +27918,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 1 record retrieved in 3.811ms"
+                        "text": "OK, 1 record retrieved in 5.021ms"
                     },
                     "totalRowCount": 1,
                     "hasMoreRows": false,
@@ -27938,7 +27938,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "7d310e52-1e7b-4c79-f110-5f9934a7a1f9"
+                        "85200d17-fd8a-420d-a65c-9e1b397c2930"
                     ]
                 },
                 "currentHeight": 36,
@@ -27966,8 +27966,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "7d310e52-1e7b-4c79-f110-5f9934a7a1f9",
+                    "tabId": "1",
+                    "resultId": "85200d17-fd8a-420d-a65c-9e1b397c2930",
                     "rows": [
                         {
                             "0": "3.749949"
@@ -27998,7 +27998,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 1 record retrieved in 5.113ms"
+                        "text": "OK, 1 record retrieved in 2.389ms"
                     },
                     "totalRowCount": 1,
                     "hasMoreRows": false,
@@ -28018,7 +28018,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "a92e87d4-7c72-495a-c2c2-7a60481d321e"
+                        "c260cd85-7dec-4d78-b0fb-9f1b985cd39b"
                     ]
                 },
                 "currentHeight": 36,
@@ -28046,8 +28046,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "a92e87d4-7c72-495a-c2c2-7a60481d321e",
+                    "tabId": "1",
+                    "resultId": "c260cd85-7dec-4d78-b0fb-9f1b985cd39b",
                     "rows": [
                         {
                             "0": "Montana",
@@ -28291,7 +28291,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 50 records retrieved in 7.809ms"
+                        "text": "OK, 50 records retrieved in 7.556ms"
                     },
                     "totalRowCount": 50,
                     "hasMoreRows": false,
@@ -28311,7 +28311,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "8bdc269b-a9f6-4eeb-afc1-f8b5364c9d4d"
+                        "544455d0-1ee8-486e-b1f9-9776de0b0e39"
                     ]
                 },
                 "currentHeight": 36,
@@ -28339,8 +28339,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "8bdc269b-a9f6-4eeb-afc1-f8b5364c9d4d",
+                    "tabId": "1",
+                    "resultId": "544455d0-1ee8-486e-b1f9-9776de0b0e39",
                     "rows": [
                         {
                             "0": "Clothing",
@@ -28402,7 +28402,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 4 records retrieved in 5.214ms"
+                        "text": "OK, 4 records retrieved in 7.097ms"
                     },
                     "totalRowCount": 4,
                     "hasMoreRows": false,
@@ -28420,10 +28420,18 @@
                 "end": 93,
                 "language": "mysql",
                 "result": {
-                    "type": "resultIds",
-                    "list": [
-                        "9cfb3767-c040-40b7-9e56-0b36dcec76cd"
-                    ]
+                    "type": "text",
+                    "text": [
+                        {
+                            "type": 0,
+                            "index": 0,
+                            "content": "MySQL Error (1054): Unknown column 'puchase_count' in 'order clause'",
+                            "language": "ansi"
+                        }
+                    ],
+                    "executionInfo": {
+                        "text": ""
+                    }
                 },
                 "currentHeight": 36,
                 "currentSet": 1,
@@ -28448,164 +28456,7 @@
                     }
                 ]
             },
-            "data": [
-                {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "9cfb3767-c040-40b7-9e56-0b36dcec76cd",
-                    "rows": [
-                        {
-                            "0": "Blouse",
-                            "1": 171
-                        },
-                        {
-                            "0": "Sweater",
-                            "1": 164
-                        },
-                        {
-                            "0": "Jeans",
-                            "1": 124
-                        },
-                        {
-                            "0": "Sandals",
-                            "1": 160
-                        },
-                        {
-                            "0": "Sneakers",
-                            "1": 145
-                        },
-                        {
-                            "0": "Shirt",
-                            "1": 169
-                        },
-                        {
-                            "0": "Shorts",
-                            "1": 157
-                        },
-                        {
-                            "0": "Coat",
-                            "1": 161
-                        },
-                        {
-                            "0": "Handbag",
-                            "1": 153
-                        },
-                        {
-                            "0": "Shoes",
-                            "1": 150
-                        },
-                        {
-                            "0": "Dress",
-                            "1": 166
-                        },
-                        {
-                            "0": "Skirt",
-                            "1": 158
-                        },
-                        {
-                            "0": "Sunglasses",
-                            "1": 161
-                        },
-                        {
-                            "0": "Pants",
-                            "1": 171
-                        },
-                        {
-                            "0": "Jacket",
-                            "1": 163
-                        },
-                        {
-                            "0": "Hoodie",
-                            "1": 151
-                        },
-                        {
-                            "0": "Jewelry",
-                            "1": 171
-                        },
-                        {
-                            "0": "T-shirt",
-                            "1": 147
-                        },
-                        {
-                            "0": "Scarf",
-                            "1": 157
-                        },
-                        {
-                            "0": "Hat",
-                            "1": 154
-                        },
-                        {
-                            "0": "Socks",
-                            "1": 159
-                        },
-                        {
-                            "0": "Backpack",
-                            "1": 143
-                        },
-                        {
-                            "0": "Belt",
-                            "1": 161
-                        },
-                        {
-                            "0": "Boots",
-                            "1": 144
-                        },
-                        {
-                            "0": "Gloves",
-                            "1": 140
-                        }
-                    ],
-                    "columns": [
-                        {
-                            "title": "item_purchased",
-                            "field": "0",
-                            "dataType": {
-                                "type": 17,
-                                "characterMaximumLength": 65535,
-                                "flags": [
-                                    "BINARY",
-                                    "ASCII",
-                                    "UNICODE"
-                                ],
-                                "needsQuotes": true,
-                                "parameterFormatType": "OneOrZero"
-                            },
-                            "inPK": false,
-                            "nullable": false,
-                            "autoIncrement": false
-                        },
-                        {
-                            "title": "purchase_count",
-                            "field": "1",
-                            "dataType": {
-                                "type": 4,
-                                "flags": [
-                                    "SIGNED",
-                                    "ZEROFILL"
-                                ],
-                                "numericPrecision": 10,
-                                "parameterFormatType": "OneOrZero",
-                                "synonyms": [
-                                    "INTEGER",
-                                    "INT4"
-                                ]
-                            },
-                            "inPK": false,
-                            "nullable": false,
-                            "autoIncrement": false
-                        }
-                    ],
-                    "executionInfo": {
-                        "text": "OK, 25 records retrieved in 6.261ms"
-                    },
-                    "totalRowCount": 25,
-                    "hasMoreRows": false,
-                    "currentPage": 0,
-                    "index": 0,
-                    "sql": "SELECT item_purchased, COUNT(*) AS purchase_count\nFROM shopping_trends\nGROUP BY item_purchased",
-                    "updatable": false,
-                    "fullTableName": ""
-                }
-            ]
+            "data": []
         },
         {
             "state": {
@@ -28615,7 +28466,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "ba5e1eca-1bf7-4368-b449-00bd92099588"
+                        "6c0f3627-d20f-4613-db5f-92dab0945d9e"
                     ]
                 },
                 "currentHeight": 36,
@@ -28643,8 +28494,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "ba5e1eca-1bf7-4368-b449-00bd92099588",
+                    "tabId": "1",
+                    "resultId": "6c0f3627-d20f-4613-db5f-92dab0945d9e",
                     "rows": [
                         {
                             "0": "Every 3 Months\r",
@@ -28716,7 +28567,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 7 records retrieved in 9.633ms"
+                        "text": "OK, 7 records retrieved in 6.661ms"
                     },
                     "totalRowCount": 7,
                     "hasMoreRows": false,
@@ -28736,7 +28587,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "26c3235b-027b-499c-8188-748e95f2f6fd"
+                        "5725dacd-7441-4d4a-cd69-b5361546a345"
                     ]
                 },
                 "currentHeight": 36,
@@ -28764,8 +28615,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "26c3235b-027b-499c-8188-748e95f2f6fd",
+                    "tabId": "1",
+                    "resultId": "5725dacd-7441-4d4a-cd69-b5361546a345",
                     "rows": [
                         {
                             "0": 2808,
@@ -33840,11 +33691,11 @@
                     "fullTableName": ""
                 },
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "26c3235b-027b-499c-8188-748e95f2f6fd",
+                    "tabId": "1",
+                    "resultId": "5725dacd-7441-4d4a-cd69-b5361546a345",
                     "rows": [],
                     "executionInfo": {
-                        "text": "OK, 1000 records retrieved in 7.683ms"
+                        "text": "OK, 1000 records retrieved in 7.453ms"
                     },
                     "totalRowCount": 1000,
                     "hasMoreRows": true,
@@ -33864,7 +33715,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "24994995-21ef-4652-e39f-7f5ce7645c65"
+                        "699e33fc-de61-4176-82ae-9d00b374b66b"
                     ]
                 },
                 "currentHeight": 36,
@@ -33892,8 +33743,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "24994995-21ef-4652-e39f-7f5ce7645c65",
+                    "tabId": "1",
+                    "resultId": "699e33fc-de61-4176-82ae-9d00b374b66b",
                     "rows": [
                         {
                             "0": 20,
@@ -34263,7 +34114,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 81 records retrieved in 5.059ms"
+                        "text": "OK, 81 records retrieved in 3.689ms"
                     },
                     "totalRowCount": 81,
                     "hasMoreRows": false,
@@ -34283,7 +34134,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "d9b24345-7ac9-4248-c89c-3d6b35a60104"
+                        "8d789065-6a10-4da6-e1b5-bf326b400368"
                     ]
                 },
                 "currentHeight": 352,
@@ -34311,8 +34162,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "d9b24345-7ac9-4248-c89c-3d6b35a60104",
+                    "tabId": "1",
+                    "resultId": "8d789065-6a10-4da6-e1b5-bf326b400368",
                     "rows": [
                         {
                             "0": "Jewelry",
@@ -34456,7 +34307,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 25 records retrieved in 5.339ms"
+                        "text": "OK, 25 records retrieved in 5.416ms"
                     },
                     "totalRowCount": 25,
                     "hasMoreRows": false,
@@ -34476,7 +34327,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "a431f026-7b78-4950-8a95-f3d0053ad179"
+                        "f8b42368-98f9-4da6-d6db-cd800531bf8d"
                     ]
                 },
                 "currentHeight": 152,
@@ -34504,8 +34355,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "a431f026-7b78-4950-8a95-f3d0053ad179",
+                    "tabId": "1",
+                    "resultId": "f8b42368-98f9-4da6-d6db-cd800531bf8d",
                     "rows": [
                         {
                             "0": "Spring",
@@ -34565,7 +34416,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 4 records retrieved in 5.438ms"
+                        "text": "OK, 4 records retrieved in 5.842ms"
                     },
                     "totalRowCount": 4,
                     "hasMoreRows": false,
@@ -34585,7 +34436,7 @@
                 "result": {
                     "type": "resultIds",
                     "list": [
-                        "94d0d2de-2557-4769-d61c-04485e83e904"
+                        "6f4315b8-c879-458a-de52-69ece21ea7fe"
                     ]
                 },
                 "currentHeight": 152,
@@ -34613,8 +34464,8 @@
             },
             "data": [
                 {
-                    "tabId": "967a4159-57b2-4723-d6cb-fba3fe63e24a",
-                    "resultId": "94d0d2de-2557-4769-d61c-04485e83e904",
+                    "tabId": "1",
+                    "resultId": "6f4315b8-c879-458a-de52-69ece21ea7fe",
                     "rows": [
                         {
                             "0": "Footwear",
@@ -34676,7 +34527,7 @@
                         }
                     ],
                     "executionInfo": {
-                        "text": "OK, 4 records retrieved in 7.015ms"
+                        "text": "OK, 4 records retrieved in 6.521ms"
                     },
                     "totalRowCount": 4,
                     "hasMoreRows": false,
