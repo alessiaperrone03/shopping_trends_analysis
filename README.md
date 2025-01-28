@@ -14,13 +14,6 @@ Questo progetto mira a esplorare un database di e-commerce per ottenere insight 
 3. **Analizzare il comportamento geografico:**
    - Identificare le regioni/città più redditizie.
 
-## **Dataset**
-Il dataset utilizzato contiene diverse tabelle, tra cui:
-- **orders**: Dettagli degli ordini (data, ID cliente, ID prodotto).
-- **customers**: Informazioni sui clienti (nome, indirizzo, area geografica).
-- **products**: Dettagli sui prodotti (nome, categoria, prezzo).
-- **order_details**: Quantità e prezzi per ogni prodotto in un ordine.
-
 ## **Visualizzazioni in Tableau**
 ### **Dashboard Principali**
 1. **Panoramica Generale:**
